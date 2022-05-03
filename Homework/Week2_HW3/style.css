@@ -1,0 +1,106 @@
+body{
+    background-image: url("galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size:2000px;
+}
+
+/* this is a 3 by 3 grid */
+.circles{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vw;
+}
+
+/* each cell is a blue circle of the same size */
+.cell{
+    background-color: blue;
+    border-radius: 100%;
+}
+.cell:hover{
+    background-color: blue;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+
+.blue {
+    margin:auto;
+    position:relative;
+    width: 200px;
+    height: 200px;
+    font-size:36px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    background-color:#048ED2;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.red {
+    background-color:red;
+}
+
+
+
+.editable-in-place {
+    margin:auto;
+    position:relative;
+    width: 200px;
+    height: 200px;
+    font-size:36px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    background-color:#048ED2;
+    border-radius: 100%;
+  }
+  
+  .editable-in-place input {
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: #2A9AD2;
+    border:none;
+    padding:0;
+    margin:0;
+    
+  }
+  
+  .editable-in-place .inside{
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    width:100px;
+    left:50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.hide {
+  visibility:hidden;
+}
+
+#controlos{
+    text-align: center;
+    margin: 5px;
+}
+
+#txtTempo{
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#btnStart{
+    text-align: center;
+    margin: auto;
+    width: 55px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.inside{
+    margin-bottom: -200px;
+}

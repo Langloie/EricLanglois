@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+#title{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: chocolate;
+}
+
+#answer{
+    border-radius: 20%;
+    height: 300px;
+    width: 100%;
+    border: solid white;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card{
+    height: 400px;
+}
+.cards{
+    padding: 20px;
+}

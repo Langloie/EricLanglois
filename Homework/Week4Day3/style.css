@@ -1,0 +1,84 @@
+.player1{
+    font-weight: 900;
+    font-size: 36px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.pacman{
+    height: 100px;
+    width: 100px;
+    padding: 50%;
+}
+.pacContainer{
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes up {
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform:translateY(-100%);
+    }  
+}
+
+@keyframes down {
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform:translateY(100%);
+    }
+}
+@keyframes left {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+
+@keyframes right {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform:translateX(100%);
+    }
+}
+
+.moveUp{
+    animation: up 5s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    padding: 50%;
+}
+
+.moveDown{
+    animation: down 5s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    padding: 50%;
+}
+
+.moveLeft{
+    animation: left 5s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    padding: 50%;
+}
+
+.moveRight{
+    animation: right 5s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    padding: 50%;
+}
+
+.directions{
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+}

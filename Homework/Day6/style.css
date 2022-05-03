@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: peru;
+}
+
+/*when using display flex in parent container, 
+use justify content space evenly*/
+.navContainer{
+    border: solid lemonchiffon;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    border-width: .2px;
+    font-size: 12px;
+    padding: 1em;
+}
+
+.navTag{
+    border: solid peru;
+    padding: 8px;
+    height: 15px;
+    border-width: .2px;
+}
+.navTag:hover{
+    border: solid peru;
+    background-color: lemonchiffon;
+    color:black;
+    padding: 8px;
+    height: 15px;
+    border-width: .2px;
+}
+
+.nikeLogo{
+    height: 90px;
+}

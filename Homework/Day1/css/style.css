@@ -1,0 +1,67 @@
+	head{
+		text-decoration: underline;		
+	}
+	body{
+		background-color: yellow;
+	}
+	h1{
+		color: red;
+		font-family: cursive;
+		font-weight: 500px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	h2{
+		text-decoration: underline;
+	}
+	p{
+		color:blue;
+		font-size: 15pt;
+	}
+	a{
+		color: purple;
+		display: inline-block;
+		vertical-align: top;
+	}
+	ol{
+		font-style: italic;
+	}
+	#para1{
+		color: red;
+		display: inline-block;
+		width: 400px;
+		margin: 1em;
+	}
+	#para2{
+		float: left;
+		width:  300px;
+	}
+	img{
+		margin: 0 0 1em 1em;
+	}
+	.clearfix {
+  		overflow: auto;
+	}
+	input{
+	display: inline-block;
+	margin: 1em;
+	}
+	#WSM, tr, td, th{
+		position: relative;
+		width: 50%; 
+		border: 1px solid black;
+	}
+	th{
+		width:90%;
+	}
+	iframe{
+		position: relative;
+		top: 20px;
+		left: 20px;
+		width: 560px;
+		height: 315px;
+	}
+    .images{
+        width: 400px; 
+        height: 400px;
+    }

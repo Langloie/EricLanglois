@@ -1,0 +1,71 @@
+.navContainer{
+    border:solid blue;
+    background-color:lemonchiffon;
+    height:auto;
+    font-size:12px;
+}
+
+.covidBlkContainer{
+    height:200px;
+
+}
+.navButtonContainer{
+    padding:15px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.topNav{
+    border:solid green;
+    height:100px;
+    display:flex;
+}
+.iconContainer{
+    width:40%;
+    display: flex;
+    padding-top:35px;
+    justify-content: space-around;
+    border:solid red;
+}
+.colorLinkContainer{
+    display:flex;
+    justify-content: space-around;
+    padding-top:25px;
+    width:40%;
+    border:solid red;
+}
+
+.colorLink{
+    border:solid peru;
+    padding:4px;
+    border-width:2px;
+    height: 20px;
+}
+.colorLink:hover{
+    background-color:black;
+    color:white;
+    padding:2px;
+    border-width:2px;
+    height: 20px;
+}
+.mag-glass{
+    height:20px;
+}
+.logo{
+    height:60px;
+    margin:2em;
+}
+
+.iconSm{
+    border: solid black;
+    height: 9px;
+    margin-left: 32px;
+    padding: 6px;
+    border-radius: 22px;
+    width: 65px;
+}
+.iconSm:hover{
+    border: solid black;
+    transition:3s;
+    height: 45px;
+}

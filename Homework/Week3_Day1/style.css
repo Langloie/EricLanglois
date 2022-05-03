@@ -1,0 +1,109 @@
+/* Keyframes */
+@keyframes thisIsAKeyFrame {
+    from {
+      transform: translateX(0vw);
+    }
+  
+    to {
+      transform: translateX(100vw);
+    }
+  }
+
+  @keyframes keyframe2 {
+      from{
+          transform: translateY(0vw);
+      }
+      to{
+          transform: translateY(100vw);
+      }
+      from{
+          transform: translateY(100vw);
+      }
+      to{
+          transform: translate(0vw);
+      }
+    }
+
+
+/* ---------------------- */
+
+
+/* Desktop */
+
+@media (max-width: 2150px){
+    body{
+        background-color: grey;
+        color:black;
+        background-image: url(https://media3.giphy.com/media/13ByqbM0hgfN7y/giphy-downsized-large.gif);
+        background-size:cover;
+        background-repeat: no-repeat;
+        animation: keyframe2 4s ease-in infinite;
+    }
+}
+/* --------------------- */
+
+
+
+/* Mid */
+@media (max-width: 900px){
+    body{
+        background-image: url(https://media0.giphy.com/media/cjbxJXhNXDMjhlr1S8/200.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .title{
+        color:yellow;
+        /*animation: thisIsAKeyFrame 10s ease-in infinite;*/
+    }
+}
+
+/* --------------------- */
+
+
+/* Mobile */
+@media (max-width: 650px){
+    body{
+        background-color: black;
+        color:white;
+        background-image: url(https://c.tenor.com/tJYVE7GDkBoAAAAC/dog-what.gif);
+        background-repeat: no-repeat;
+
+    }
+    .title{
+        color:lime;
+        /*animation: thisIsAKeyFrame 10s ease-in infinite;*/
+    }
+    .walter{
+        border: solid lime;
+    }
+}
+
+/* --------------------- */
+
+
+.Eric{
+    text-align: center;
+    margin: 1em;
+}
+
+.Eric:hover{
+    text-align: center;
+    margin: 1em;
+    background-color: blue;
+}
+
+.stage{
+    border: solid white;
+    height: 42vh;
+    color: black;
+}
+
+.showScreen{
+    display: block;
+    color: white;
+}
+
+
+
+/* --------_General ---- */
+/* elements that stay same no matter view */

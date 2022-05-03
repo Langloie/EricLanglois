@@ -1,0 +1,87 @@
+
+body{
+    background-color: lightsalmon;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    margin: 15px;
+}
+
+.navButton{
+    border: solid rgb(5, 139, 192);
+    border-radius: 25px;
+    width: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 2px;
+    background-color:rgb(5, 139, 192);
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navButton:hover{
+    border: solid rgb(5, 139, 192);
+    border-radius: 25px;
+    width: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 2px;
+    background-color:red;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+}
+
+img{
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.header{
+    display: flex;
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 3%;
+    color: white;
+}
+
+.photoTop{
+    width: auto;
+    border: solid yellow;
+    height: 300px;
+}
+
+.hiddenDiv{
+    color: darkgoldenrod;
+}
+
+.wexler{
+    height: 120px;
+    border-radius: 50%;
+    animation: moveLeft 5s ease-in-out infinite;
+}
+
+@keyframes moveLeft{
+    from{
+        transform: translateX(0vw);
+        border: solid blue;
+    }
+    to{
+        border: solid yellow;
+        border-width: 12px;
+        transform: translateX(100vw);
+    }
+}
