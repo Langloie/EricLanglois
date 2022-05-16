@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "name": "week6day1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "description": "Node Crash course",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
